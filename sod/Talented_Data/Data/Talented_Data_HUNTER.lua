@@ -221,7 +221,7 @@ Talented_Data.HUNTER = {
 			{
 				info = {
 					name = "Efficiency",
-					tips = "Reduces the Mana cost of your Shots and Stings by %d%%.",
+					tips = "Reduces the Mana cost of your Shots, Strikes and Stings by %d%%.",
 					column = 3,
 					row = 1,
 					icon = 135865,
@@ -306,7 +306,7 @@ Talented_Data.HUNTER = {
 						}, -- [1]
 					},
 					name = "Mortal Shots",
-					tips = "Increases your ranged weapon critical strike damage bonus by %d%%.",
+					tips = "Increases your ranged weapon and melee ability critical strike damage bonus by %d%%.",
 					column = 3,
 					row = 4,
 					icon = 132271,

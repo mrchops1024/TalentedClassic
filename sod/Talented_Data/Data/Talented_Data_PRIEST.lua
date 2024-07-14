@@ -280,7 +280,7 @@ Talented_Data.PRIEST = {
 					column = 4,
 					icon = 135928,
 					row = 3,
-					tips = "Increases your target's armor by %d%% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
+					tips = "Increases your target's armor by %d%% for 15 sec after getting a critical effect from any of your heals.",
 					tipValues = {{8}, {16}, {25}}
 				},
 			}, -- [8]
@@ -595,7 +595,7 @@ Talented_Data.PRIEST = {
 					column = 2,
 					exceptional = 1,
 					row = 7,
-					tips = "Assume a Shadowform, increasing your Shadow damage by 15%% and reducing Physical damage done to you by 15%%.  However, you may not cast Holy spells while in this form.",
+					tips = "Assume a Shadowform, increasing your Shadow damage by 15%%, reducing the mana cost of all Shadow spells by 0%% and reducing Physical damage done to you by 15%%.  However, you may not cast Holy spells while in this form.",
 				},
 			}, -- [16]
 		},

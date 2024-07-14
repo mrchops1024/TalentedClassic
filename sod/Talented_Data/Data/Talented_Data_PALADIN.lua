@@ -363,7 +363,7 @@ Talented_Data.PALADIN = {
 					column = 2,
 					exceptional = 1,
 					row = 7,
-					tips = "Increases chance to block by 30%% for 10 sec, and deals 65 Holy damage for each attack blocked while active.  Damage caused by Holy Shield causes 20%% additional threat.  Each block expends a charge.  4 charges.",
+					tips = "Increases chance to block by 30%% for 10 sec, and deals 65 Holy damage for each attack blocked while active.  Damage caused by Holy Shield causes 20%% additional threat.  Each block expends a charge.  4 charges. Activating Holy Shield also grants you 2 Spell Power for each point of your defense skill beyond 300. Lasts 15 sec.",
 				},
 			}, -- [15]
 		},
@@ -437,8 +437,8 @@ Talented_Data.PALADIN = {
 					column = 1,
 					icon = 135985,
 					row = 3,
-					tips = "Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by %d%% for 10 sec.",
-					tipValues = {{5}, {10}, {15}}
+					tips = "Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by %d%%, reduce the target's Attack Power by 10, and increase the Paladin's Attack Power by 5% for 30 sec for 10 sec.",
+					tipValues = {{5, 10, 5}, {10, 20, 10}, {15, 30, 15}}
 				},
 			}, -- [6]
 			{
